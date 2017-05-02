@@ -5,7 +5,11 @@
     <style>
       td {
         border: 2px solid pink;
-      }  
+      }
+      label {
+        display: inline-block;
+        width:75px;
+      }
     </style>
   </head>
     <table>
@@ -34,5 +38,28 @@
         <td>Row 4, Cell 4</td>
       </tr>
     </table>
+
+    <form>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" />
+      </div>
+      <div>
+        <label for="reason">Reason</label>
+        <textarea name="reason"></textarea>
+      </div>
+      <div>
+        <label for="industry">Industry</label>
+        <select name="industry">
+          <option>Information Technology</option>
+          <option>Marketing</option>
+          <option>Semiconductors</option>
+        </select>
+      </div>
+    </form>
   </body>
 </html>
