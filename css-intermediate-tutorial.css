@@ -60,3 +60,8 @@ p {
 p {
     font: italic bold 12px/2 courier;
 }
+
+
+body {
+    background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+}
