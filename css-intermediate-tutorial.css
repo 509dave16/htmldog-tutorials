@@ -1,7 +1,5 @@
 #navigation {
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
     width: 200px;
 }
 
