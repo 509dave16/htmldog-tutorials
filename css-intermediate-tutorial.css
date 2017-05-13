@@ -44,9 +44,18 @@ input:focus, textarea:focus {
     background: #eee;
 }
 
-p:first-child {
+#article p:first-child {
     font-weight: bold;
     font-size: 40px;
+}
+
+#article p:first-letter {
+    font-size: 24px;
+    float: left;
+}
+
+#article p:first-line {
+    font-weight: bold;
 }
 
 p {
